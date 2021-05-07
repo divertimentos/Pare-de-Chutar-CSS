@@ -1,19 +1,10 @@
 .example {
     color: #FFF;
-    text-align: justify;
-}
-
-.example::after {
-    content:'';
-    display: inline-block;
-    width: 100%;
-    height: 0;
-}
-    .example-item {
-        width: 25%;
+    text-align: center;
+}    .example-item {
+        display: inline;
+        width: 33.333%;
         height: 150px;
-        display: inline-block;
-        margin-bottom: 10px;
     }
     .example-item_first {
         background-color: #FAA116;

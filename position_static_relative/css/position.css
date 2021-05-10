@@ -6,13 +6,16 @@
   text-transform: uppercase;
   text-align: center;
   cursor: pointer;
+  position: relative;
 }
 .elementExample_first {
   background-color: #8e44ad;
   top: 200px;
-  position: relative;
-  opacity: .3;
 }
 .elementExample_last {
   background-color: #c0392b;
+}
+
+.elementExample_isActive {
+  z-index: 1;
 }

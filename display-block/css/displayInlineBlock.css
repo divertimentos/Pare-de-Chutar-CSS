@@ -3,14 +3,20 @@
   text-align: center;
 }
 .example-item {
-  display: inline;
+  display: block;
+  width: 33.333%;
+  height: 150px;
 }
 .example-item_first {
   background-color: #faa116;
 }
 .example-item_second {
   background-color: #57c7c3;
+  /*margin-left: calc(100% - 33.3%);*/
+  margin-left: auto;
 }
 .example-item_third {
   background-color: #3b97d3;
+  margin-left: auto;
+  margin-right: auto;
 }

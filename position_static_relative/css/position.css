@@ -1,0 +1,18 @@
+.elementExample {
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+}
+.elementExample_first {
+  background-color: #8e44ad;
+  top: 200px;
+  position: relative;
+  opacity: .3;
+}
+.elementExample_last {
+  background-color: #c0392b;
+}
